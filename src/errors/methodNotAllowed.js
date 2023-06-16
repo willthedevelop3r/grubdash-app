@@ -1,3 +1,4 @@
+// ------- MIDDLEWARE TO HANDLE REQUEST ERRORS ------- //
 function methodNotAllowed(request, response, next) {
   next({
     status: 405,
